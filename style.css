@@ -1,0 +1,102 @@
+body {  
+    background-image: url(thumb-1920-1158047.jpg);  
+    background-attachment: fixed;  
+    background-size: cover;  
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+}  
+  
+.datos .fischer {  
+    border-radius: 50%;  
+    height: 200px;  
+}  
+  
+.icono img {  
+    margin-left: 20px;  
+    height: 30px;  
+}  
+  
+.datos {  
+    margin-bottom: 20px;  
+    text-align: center;  
+    padding: 20px;  
+}  
+  
+.links {  
+    text-align: center;  
+    padding: 20px;  
+}  
+  
+.link-item {  
+    margin-bottom: 15px;  
+}  
+  
+.link-button {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 15px;  
+    background-color: #7C6753;  
+    color: white;  
+    font-size: 18px;  
+    cursor: pointer;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    width: 100%;  
+    max-width: 400px;  
+    margin: 0 auto;  
+    transition: transform 0.2s;  
+}  
+  
+.link-button p {  
+    text-align: center;  
+}  
+  
+.link-button:hover {  
+    transform: scale(1.05);  
+    background-color: #76868F;  
+}  
+  
+.link-img {  
+    height: 30px;  
+    margin-right: 10px;  
+}  
+ 
+@media (max-width: 768px) {  
+    .datos .fischer {  
+        height: 150px;  
+    }  
+  
+    .link-button {  
+        font-size: 16px;  
+    }  
+  
+    .icono img {  
+        height: 25px;  
+        margin-left: 10px;  
+    }  
+}  
+  
+@media (max-width: 480px) {  
+    .datos .fischer {  
+        height: 100px;  
+    }  
+  
+    .link-button {  
+        flex-direction: column;  
+        padding: 10px;  
+        font-size: 14px;  
+    }  
+  
+    .link-img {  
+        margin-right: 0;  
+        margin-bottom: 5px;  
+    }  
+  
+    .icono img {  
+        height: 20px;  
+        margin-left: 5px;  
+    }  
+}  

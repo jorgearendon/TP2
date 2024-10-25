@@ -1,0 +1,173 @@
+body {  
+    background-color: Canvas;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    color: white;  
+    color-scheme: light dark;  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+table {  
+    background-color: white;  
+    margin: 20px auto;  
+    border-collapse: collapse;  
+}  
+  
+table img {  
+    height: 30px;  
+}  
+  
+th, td {  
+    width: 30px;  
+    height: 30px;  
+    text-align: center;  
+}  
+  
+.UADElogo img {  
+    height: 40px;  
+    display: block;  
+    margin: 20px auto;  
+}  
+  
+.yo img {  
+    height: 150px;  
+    border-radius: 50%;  
+}  
+  
+.footer {  
+    margin-top: 50px;  
+    bottom: 0;  
+    width: 100%;  
+    text-align: center;  
+}  
+  
+.footer img {  
+    margin-bottom: 6px;  
+    vertical-align: middle;  
+    height: 20px;  
+}  
+  
+.yo h1 {  
+    text-align: center;  
+    font-size: 25px;  
+}  
+  
+.texto {  
+    width: 90%;  
+    max-width: 500px;  
+    margin: 0 auto;  
+    padding: 10px;  
+    box-sizing: border-box;  
+}  
+  
+.link {  
+    color: rgb(188, 125, 7);  
+    text-decoration: none;  
+}  
+  
+.cosas {  
+    margin: 30px auto;  
+    width: 90%;  
+    max-width: 1000px;  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-around;  
+}  
+  
+.actividades {  
+    background-color: rgba(0, 0, 0, 0.5);  
+    padding: 20px;  
+    border-radius: 10px;  
+    margin: 10px;  
+    flex: 1 1 200px;  
+    max-width: 300px;  
+}  
+  
+.paginas h3 {  
+    margin-top: 50px;  
+    text-align: center;  
+}  
+  
+.links {  
+    text-decoration: none;  
+    text-align: center;  
+}  
+  
+.links a {  
+    margin: 0 10px;  
+    text-decoration: none;  
+    color: #1E90FF;  
+}  
+  
+.juego {  
+    margin: 20px 0;  
+    text-align: center;  
+}  
+  
+.menu {  
+    margin: 20px 0;  
+    text-align: center;  
+}  
+  
+.peliculas img, .peliculas h1 {  
+    margin: 20px auto;  
+}  
+  
+.peliculas {  
+    padding: 20px;  
+    text-align: center;  
+}  
+  
+.peliculas div {  
+    margin-bottom: 20px;  
+}  
+  
+/* Responsive design */  
+@media (max-width: 768px) {  
+    .UADElogo img, .yo img {  
+        height: 100px;  
+    }  
+  
+    .cosas {  
+        flex-direction: column;  
+        align-items: center;  
+    }  
+  
+    .actividades {  
+        max-width: 100%;  
+        margin: 10px 0;  
+    }  
+}  
+  
+@media (max-width: 480px) {  
+    .UADElogo img, .yo img {  
+        height: 80px;  
+    }  
+  
+    .texto p {  
+        font-size: 14px;  
+    }  
+  
+    .juego a, .menu a {  
+        font-size: 14px;  
+        padding: 8px 16px;  
+    }  
+  
+    footer {  
+        padding: 10px;  
+    }  
+  
+    th, td {  
+        width: 20px;  
+        height: 20px;  
+    }  
+  
+    table img {  
+        height: 20px;  
+    }  
+  
+    .peliculas img {  
+        width: 100%;  
+        max-width: 300px;  
+    }  
+}  
