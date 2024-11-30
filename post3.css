@@ -1,17 +1,18 @@
 body {    
     font-family: 'Roboto', sans-serif;    
-    background-color: #f5f5f5;    
-    color: #333;    
+    background-color: #fff8e1; /* Fondo cálido */
+    color: #5e3200; /* Texto marrón cálido */
     margin: 0;    
     padding: 0;    
     line-height: 1.6;    
 }    
   
 header {    
-    background-color: #000;    
+    background-color: #ff9800; /* Naranja cálido */
     color: #fff;    
     text-align: center;    
     padding: 50px 0;    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);    
 }    
   
 header h1 {    
@@ -21,44 +22,49 @@ header h1 {
 }    
   
 nav {    
-    background-color: #fff;    
-    border-bottom: 1px solid #ccc;    
+    background-color: #ffe0b2; /* Fondo cálido claro */
+    border-bottom: 1px solid #ff9800;    
     padding: 15px 0;    
+    text-align: center;
 }    
   
 nav a {    
-    color: #333;    
+    color: #5e3200;    
     margin: 0 20px;    
     text-decoration: none;    
     font-weight: bold;    
     font-size: 1.1em;    
+    transition: color 0.3s;
 }    
   
 nav a:hover {    
-    color: #000;    
+    color: #ff6f00; /* Naranja más intenso al pasar el cursor */
 }    
   
 .container {    
     max-width: 800px;    
     margin: 40px auto;    
-    padding: 0 20px;    
+    padding: 20px;    
     background-color: #fff;    
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
+    border-radius: 10px;    
 }    
   
 .post {    
     margin-bottom: 30px;    
     padding-bottom: 30px;    
+    border-bottom: 1px solid #ffe0b2;    
 }    
   
 .post h2 {    
     font-family: 'Playfair Display', serif;    
     font-size: 2.5em;    
     margin-bottom: 10px;    
+    color: #d84315; /* Tono tierra cálido */
 }    
   
 .post .date {    
-    color: #aaa;    
+    color: #a1887f; /* Marrón claro */
     font-size: 0.9em;    
     margin-bottom: 20px;    
 }    
@@ -66,23 +72,27 @@ nav a:hover {
 .post img {    
     display: block;  
     width: 100%;    
-    max-width: 600px;    
+    max-width: 600px; 
     height: auto;    
-    margin: 20px auto;    
+    margin: 20px auto;
+    border-radius: 10px;    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);    
 }    
   
 .post p {    
     font-size: 1.1em;    
+    color: #5e3200;    
 }    
   
 footer {    
-    background-color: #000;    
+    background-color: #ff9800;    
     color: #fff;    
     text-align: center;    
     padding: 20px 0;    
     font-size: 0.9em;    
+    border-top: 5px solid #d84315;    
 }    
-  
+
 @media (max-width: 768px) {  
     header h1 {  
         font-size: 2.5em;  
@@ -95,7 +105,7 @@ footer {
   
     .container {  
         margin: 20px auto;  
-        padding: 0 10px;  
+        padding: 10px;  
     }  
   
     .post h2 {  
@@ -119,7 +129,7 @@ footer {
   
     .container {  
         margin: 10px auto;  
-        padding: 0 5px;  
+        padding: 10px;  
     }  
   
     .post h2 {  
@@ -134,3 +144,4 @@ footer {
         width: 100%;  
     }  
 }  
+
