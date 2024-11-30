@@ -1,87 +1,91 @@
 body {  
     font-family: 'Roboto', sans-serif;  
-    background-color: #f5f5f5;  
-    color: #333;  
+    background-color: #fff7e6; /* Color cálido de fondo */  
+    color: #4f2a1d; /* Marrón oscuro, cálido para el texto */  
     margin: 0;  
     padding: 0;  
-    line-height: 1.6;  
+    line-height: 1.8;  
 }  
   
 header {  
-    background-color: #000;  
+    background-color: #e27d60; /* Naranja suave para destacar el encabezado */  
     color: #fff;  
     text-align: center;  
-    padding: 20px 0;  
+    padding: 30px 0;  
 }  
   
 header h1 {  
     margin: 0;  
     font-family: 'Playfair Display', serif;  
-    font-size: 3.5em;  
+    font-size: 3em;  
 }  
   
 nav {  
-    background-color: #fff;  
-    border-bottom: 1px solid #ccc;  
+    background-color: #fae1dd; /* Color rosado cálido */  
+    border-bottom: 2px solid #f3a683; /* Rosa cálido más oscuro */  
     padding: 15px 0;  
+    text-align: center;  
 }  
   
 nav a {  
-    color: #333;  
-    margin: 0 20px;  
+    color: #4f2a1d; /* Marrón oscuro para contraste */  
+    margin: 0 15px;  
     text-decoration: none;  
     font-weight: bold;  
     font-size: 1.1em;  
 }  
   
 nav a:hover {  
-    color: #000;  
+    color: #e27d60; /* Naranja suave al pasar el ratón */  
 }  
   
 .container {  
-    max-width: 800px;  
-    margin: 40px auto;  
-    padding: 0 20px;  
-    background-color: #fff;  
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    max-width: 900px;  
+    margin: 30px auto;  
+    padding: 20px;  
+    background-color: #fff; /* Fondo claro para contenido */  
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);  
+    border-radius: 8px;  
 }  
   
 .post {  
-    border-bottom: 1px solid #eee;  
-    margin-bottom: 10px;  
-    padding-bottom: 10px;  
+    border-bottom: 1px solid #f3a683; /* Borde cálido entre posts */  
+    margin-bottom: 20px;  
+    padding-bottom: 20px;  
 }  
   
 .post h2 {  
     font-family: 'Playfair Display', serif;  
-    font-size: 2.5em;  
+    font-size: 2.2em;  
     margin-bottom: 10px;  
+    color: #d1495b; /* Rojo suave para títulos */  
 }  
   
 .post .date {  
-    color: #aaa;  
+    color: #a27b5c; /* Marrón cálido, más claro para fechas */  
     font-size: 0.9em;  
-    margin-bottom: 20px;  
+    margin-bottom: 15px;  
 }  
   
 .post p {  
     font-size: 1.1em;  
+    color: #4f2a1d;  
 }  
   
 .post a {  
     text-decoration: none;  
-    color: #333;  
+    color: #e27d60; /* Naranja para enlaces */  
 }  
   
 .post a:hover {  
-    color: #000;  
+    color: #d1495b; /* Rojo suave al pasar el ratón */  
 }  
   
 footer {  
-    background-color: #000;  
+    background-color: #4f2a1d; /* Marrón oscuro para el pie de página */  
     color: #fff;  
     text-align: center;  
-    padding: 10px 0;  
+    padding: 15px 0;  
     font-size: 0.9em;  
 }  
   
@@ -98,48 +102,59 @@ form {
     font-weight: bold;  
     margin-bottom: 5px;  
     display: block;  
+    color: #4f2a1d;  
 }  
   
 .form-group input,  
 .form-group textarea {  
     width: 100%;  
     padding: 10px;  
-    border: 1px solid #ccc;  
+    border: 1px solid #f3a683;  
     border-radius: 4px;  
+    background-color: #fff7e6; /* Fondo cálido */  
 }  
   
 .form-buttons {  
     display: flex;  
-    justify-content: space-between;  
-    align-items: center;  
+    justify-content: flex-end;  
+    gap: 10px;  
 }  
   
 .form-buttons button,  
 .form-buttons .button {  
     padding: 10px 20px;  
     border: none;  
-    background-color: #000;  
+    background-color: #e27d60; /* Botones cálidos */  
     color: #fff;  
     text-decoration: none;  
     border-radius: 4px;  
     cursor: pointer;  
+    font-size: 1em;  
 }  
   
 .form-buttons button:hover,  
 .form-buttons .button:hover {  
-    background-color: #333;  
+    background-color: #d1495b; /* Botón más oscuro al pasar el ratón */  
 }  
   
 @media (max-width: 600px) {  
     .container {  
-        padding: 0 10px;  
+        padding: 15px;  
+    }  
+    header h1 {  
+        font-size: 2.5em;  
+    }  
+    nav a {  
+        font-size: 1em;  
+        margin: 0 10px;  
     }  
     .form-buttons {  
         flex-direction: column;  
+        gap: 15px;  
     }  
     .form-buttons button,  
     .form-buttons .button {  
         width: 100%;  
-        margin-bottom: 10px;  
     }  
 }  
+
